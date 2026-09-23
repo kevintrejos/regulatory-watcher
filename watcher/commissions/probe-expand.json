@@ -1,0 +1,1535 @@
+{
+  "rows": [
+    {
+      "id": "puc-al",
+      "name": "Alabama Public Service Commission",
+      "jurisdiction": "AL",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.alabama.gov/",
+      "siteTitle": "APSC &ndash; New Alabama PSC Website",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ak",
+      "name": "Regulatory Commission of Alaska",
+      "jurisdiction": "AK",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://rca.alaska.gov/",
+      "siteTitle": "alaska.gov",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "HTTP 403",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "puc-az",
+      "name": "Arizona Corporation Commission",
+      "jurisdiction": "AZ",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.azcc.gov/",
+      "siteTitle": "Arizona Corporation Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ar",
+      "name": "Arkansas Public Service Commission",
+      "jurisdiction": "AR",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://apsc.arkansas.gov/",
+      "siteTitle": "Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ca",
+      "name": "California Public Utilities Commission",
+      "jurisdiction": "CA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.cpuc.ca.gov/",
+      "siteTitle": "California Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-co",
+      "name": "Colorado Public Utilities Commission",
+      "jurisdiction": "CO",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.colorado.gov/",
+      "siteTitle": "HOME PAGE Public Utilities Commission | Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ct",
+      "name": "Connecticut PURA",
+      "jurisdiction": "CT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://portal.ct.gov/pura",
+      "siteTitle": "Public Utilities Regulatory Authority",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-de",
+      "name": "Delaware Public Service Commission",
+      "jurisdiction": "DE",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://depsc.delaware.gov/",
+      "siteTitle": "Delaware Public Service Commission (PSC) - State of Delaware",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-dc",
+      "name": "DC Public Service Commission",
+      "jurisdiction": "DC",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://dcpsc.org/",
+      "siteTitle": "DCPSC - Public Service Commission of the District of Columbia",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-fl",
+      "name": "Florida Public Service Commission",
+      "jurisdiction": "FL",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.floridapsc.com/",
+      "siteTitle": "Florida PSC",
+      "access": "js",
+      "adapter": null,
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ga",
+      "name": "Georgia Public Service Commission",
+      "jurisdiction": "GA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.ga.gov/",
+      "siteTitle": "Home | Georgia Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-hi",
+      "name": "Hawaii Public Utilities Commission",
+      "jurisdiction": "HI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.hawaii.gov/",
+      "siteTitle": "Public Utilities Commission &#8211; State of Hawaii",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-id",
+      "name": "Idaho Public Utilities Commission",
+      "jurisdiction": "ID",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.idaho.gov/",
+      "siteTitle": "Home Page - IPUC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-il",
+      "name": "Illinois Commerce Commission",
+      "jurisdiction": "IL",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://icc.illinois.gov/",
+      "siteTitle": "Illinois Commerce Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-in",
+      "name": "Indiana Utility Regulatory Commission",
+      "jurisdiction": "IN",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.in.gov/iurc/",
+      "siteTitle": "IURC: Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ia",
+      "name": "Iowa Utilities Commission",
+      "jurisdiction": "IA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://iuc.iowa.gov/",
+      "siteTitle": "Welcome to the Iowa Utilities Commission | Iowa Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ks",
+      "name": "Kansas Corporation Commission",
+      "jurisdiction": "KS",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.kcc.ks.gov/",
+      "siteTitle": "Kansas Corporation Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ky",
+      "name": "Kentucky Public Service Commission",
+      "jurisdiction": "KY",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.ky.gov/",
+      "siteTitle": "KY PSC Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-la",
+      "name": "Louisiana Public Service Commission",
+      "jurisdiction": "LA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.lpsc.louisiana.gov/",
+      "siteTitle": "LPSC - Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-me",
+      "name": "Maine Public Utilities Commission",
+      "jurisdiction": "ME",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.maine.gov/mpuc/",
+      "siteTitle": "Maine Public Utilities Commission Homepage | MPUC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-md",
+      "name": "Maryland Public Service Commission",
+      "jurisdiction": "MD",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.maryland.gov/",
+      "siteTitle": "Maryland Public Service Commission (PSC) | Official Website",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ma",
+      "name": "Massachusetts Department of Public Utilities",
+      "jurisdiction": "MA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.mass.gov/orgs/department-of-public-utilities",
+      "siteTitle": "Department of Public Utilities | Mass.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-mi",
+      "name": "Michigan Public Service Commission",
+      "jurisdiction": "MI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.michigan.gov/mpsc",
+      "siteTitle": "Michigan Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-mn",
+      "name": "Minnesota Public Utilities Commission",
+      "jurisdiction": "MN",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "http://validate.perfdrive.com/d5bd5333eafe8b0ccd6023ba818d1aa6/?ssa=ac1bb1e7-c453-46a6-8899-c6eba0e06e1d&ssb=32543263820&ssc=https%3A%2F%2Fmn.gov%2Fpuc%2F&ssi=a9b00260-bf56-464d-922c-39a5836e78d8&ssk=[email removed]&ssm=60987759140494055101898691580838&ssn=e91990aff5de9c561566c5b85a0337f70f35816e8ed8-e798-4bd8-a94de8&sso=64f69658-64d8b0ccb6b3b4e3dfb6eb6ddf4f467b3b6a3438725076bd&ssp=34667638621790172441179014467719900&ssq=20381831577020690704215770501707140615553&ssr=MTM2LjI2LjUuMjA1&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/124.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=W10=",
+      "siteTitle": "Radware Bot Manager Captcha",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "bot wall",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "puc-ms",
+      "name": "Mississippi Public Service Commission",
+      "jurisdiction": "MS",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.psc.ms.gov/",
+      "siteTitle": "Home | MISSISSIPPI PUBLIC SERVICE COMMISSION",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-mo",
+      "name": "Missouri Public Service Commission",
+      "jurisdiction": "MO",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.mo.gov/",
+      "siteTitle": "Home | Missouri Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-mt",
+      "name": "Montana Public Service Commission",
+      "jurisdiction": "MT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.mt.gov/",
+      "siteTitle": "",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "fetch failed",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "puc-ne",
+      "name": "Nebraska Public Service Commission",
+      "jurisdiction": "NE",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.nebraska.gov/",
+      "siteTitle": "Home | Nebraska Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-nv",
+      "name": "Public Utilities Commission of Nevada",
+      "jurisdiction": "NV",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.puc.nv.gov/",
+      "siteTitle": "puc.nv.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-nh",
+      "name": "New Hampshire Public Utilities Commission",
+      "jurisdiction": "NH",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.puc.nh.gov/",
+      "siteTitle": "Welcome | NH Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-nj",
+      "name": "New Jersey Board of Public Utilities",
+      "jurisdiction": "NJ",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.nj.gov/bpu/",
+      "siteTitle": "Board of Public Utilities",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-nm",
+      "name": "New Mexico Public Regulation Commission",
+      "jurisdiction": "NM",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.prc.nm.gov/",
+      "siteTitle": "Home - NM PRC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ny",
+      "name": "New York Department of Public Service",
+      "jurisdiction": "NY",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://dps.ny.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "HTTP 403",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "puc-nc",
+      "name": "North Carolina Utilities Commission",
+      "jurisdiction": "NC",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.ncuc.gov/",
+      "siteTitle": "North Carolina Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-nd",
+      "name": "North Dakota Public Service Commission",
+      "jurisdiction": "ND",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.psc.nd.gov/",
+      "siteTitle": "Home | NDPSC | North Dakota Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-oh",
+      "name": "Public Utilities Commission of Ohio",
+      "jurisdiction": "OH",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puco.ohio.gov/",
+      "siteTitle": "Public Utilities Commission of Ohio",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ok",
+      "name": "Oklahoma Corporation Commission",
+      "jurisdiction": "OK",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://oklahoma.gov/occ.html",
+      "siteTitle": "Oklahoma Corporation Commission (185)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-or",
+      "name": "Oregon Public Utility Commission",
+      "jurisdiction": "OR",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.oregon.gov/puc/Pages/default.aspx",
+      "siteTitle": "Public Utility Commission : Home : State of Oregon",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-pa",
+      "name": "Pennsylvania Public Utility Commission",
+      "jurisdiction": "PA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.puc.pa.gov/",
+      "siteTitle": "Pennsylvania Public Utility Commission | Regulating Utility Services | PA PUC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ri",
+      "name": "Rhode Island Public Utilities Commission",
+      "jurisdiction": "RI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://ripuc.ri.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "HTTP 403",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "puc-sc",
+      "name": "South Carolina Public Service Commission",
+      "jurisdiction": "SC",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.sc.gov/",
+      "siteTitle": "Home | Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-sd",
+      "name": "South Dakota Public Utilities Commission",
+      "jurisdiction": "SD",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.sd.gov/",
+      "siteTitle": "South Dakota Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-tn",
+      "name": "Tennessee Public Utility Commission",
+      "jurisdiction": "TN",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.tn.gov/tpuc.html",
+      "siteTitle": "Tennessee Public Utility Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-tx",
+      "name": "Public Utility Commission of Texas",
+      "jurisdiction": "TX",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.puc.texas.gov/",
+      "siteTitle": "Public Utility Commission of Texas",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ut",
+      "name": "Utah Public Service Commission",
+      "jurisdiction": "UT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.utah.gov/",
+      "siteTitle": "Public Service Comission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-vt",
+      "name": "Vermont Public Utility Commission",
+      "jurisdiction": "VT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.vermont.gov/",
+      "siteTitle": "Home | Public Utility Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-va",
+      "name": "Virginia State Corporation Commission",
+      "jurisdiction": "VA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.scc.virginia.gov/",
+      "siteTitle": "Virginia SCC - Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-wa",
+      "name": "Washington Utilities and Transportation Commission",
+      "jurisdiction": "WA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.utc.wa.gov/",
+      "siteTitle": "Washington Utilities and Transportation Commission | UTC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-wv",
+      "name": "West Virginia Public Service Commission",
+      "jurisdiction": "WV",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.psc.state.wv.us/",
+      "siteTitle": "Public Service Commission of West Virginia",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-wi",
+      "name": "Public Service Commission of Wisconsin",
+      "jurisdiction": "WI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.wi.gov/Pages/Home.aspx",
+      "siteTitle": "Public Service Commission of Wisconsin",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-wy",
+      "name": "Wyoming Public Service Commission",
+      "jurisdiction": "WY",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.wyo.gov/",
+      "siteTitle": "WY Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "pjm",
+      "name": "PJM Interconnection",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional RTO",
+      "status": "active",
+      "url": "https://www.pjm.com/",
+      "siteTitle": "PJM Website",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "miso",
+      "name": "Midcontinent ISO",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional RTO",
+      "status": "active",
+      "url": "https://www.misoenergy.org/",
+      "siteTitle": "Midcontinent Independent System Operator (MISO)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "spp",
+      "name": "Southwest Power Pool",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional RTO",
+      "status": "active",
+      "url": "https://www.spp.org/",
+      "siteTitle": "Home - Southwest Power Pool",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "caiso",
+      "name": "California ISO",
+      "jurisdiction": "CA",
+      "type": "iso",
+      "authority": "FERC-jurisdictional ISO",
+      "status": "active",
+      "url": "https://www.caiso.com/",
+      "siteTitle": "Home | California ISO",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "isone",
+      "name": "ISO New England",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional ISO",
+      "status": "active",
+      "url": "https://www.iso-ne.com/",
+      "siteTitle": "ISO New England",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "nyiso",
+      "name": "New York ISO",
+      "jurisdiction": "NY",
+      "type": "iso",
+      "authority": "FERC-jurisdictional ISO",
+      "status": "active",
+      "url": "https://www.nyiso.com/",
+      "siteTitle": "NYISO Home - NYISO",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "ercot",
+      "name": "Electric Reliability Council of Texas",
+      "jurisdiction": "TX",
+      "type": "iso",
+      "authority": "Not FERC-jurisdictional; overseen by PUCT",
+      "status": "active",
+      "url": "https://www.ercot.com/",
+      "siteTitle": "Electric Reliability Council of Texas",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "doe",
+      "name": "U.S. Department of Energy",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "DOE Organization Act of 1977",
+      "status": "active",
+      "url": "https://www.energy.gov/",
+      "siteTitle": "Department of Energy",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "epa",
+      "name": "U.S. Environmental Protection Agency",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Reorganization Plan No. 3 of 1970",
+      "status": "active",
+      "url": "https://www.epa.gov/",
+      "siteTitle": "U.S. Environmental Protection Agency | US EPA",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "nrc",
+      "name": "U.S. Nuclear Regulatory Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Energy Reorganization Act of 1974",
+      "status": "active",
+      "url": "https://www.nrc.gov/",
+      "siteTitle": "Homepage | Nuclear Regulatory Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "tva",
+      "name": "Tennessee Valley Authority",
+      "jurisdiction": "US",
+      "type": "authority",
+      "authority": "Tennessee Valley Authority Act of 1933",
+      "status": "active",
+      "url": "https://www.tva.com/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    }
+  ],
+  "unverified": [
+    {
+      "id": "puc-ak",
+      "name": "Regulatory Commission of Alaska",
+      "url": "https://rca.alaska.gov/",
+      "reason": "HTTP 403",
+      "kept": true
+    },
+    {
+      "id": "puc-mn",
+      "name": "Minnesota Public Utilities Commission",
+      "url": "http://validate.perfdrive.com/d5bd5333eafe8b0ccd6023ba818d1aa6/?ssa=ac1bb1e7-c453-46a6-8899-c6eba0e06e1d&ssb=32543263820&ssc=https%3A%2F%2Fmn.gov%2Fpuc%2F&ssi=a9b00260-bf56-464d-922c-39a5836e78d8&ssk=[email removed]&ssm=60987759140494055101898691580838&ssn=e91990aff5de9c561566c5b85a0337f70f35816e8ed8-e798-4bd8-a94de8&sso=64f69658-64d8b0ccb6b3b4e3dfb6eb6ddf4f467b3b6a3438725076bd&ssp=34667638621790172441179014467719900&ssq=20381831577020690704215770501707140615553&ssr=MTM2LjI2LjUuMjA1&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/124.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=W10=",
+      "reason": "bot wall",
+      "kept": true
+    },
+    {
+      "id": "puc-mt",
+      "name": "Montana Public Service Commission",
+      "url": "https://psc.mt.gov/",
+      "reason": "fetch failed",
+      "kept": true
+    },
+    {
+      "id": "puc-ny",
+      "name": "New York Department of Public Service",
+      "url": "https://dps.ny.gov/",
+      "reason": "HTTP 403",
+      "kept": true
+    },
+    {
+      "id": "puc-ri",
+      "name": "Rhode Island Public Utilities Commission",
+      "url": "https://ripuc.ri.gov/",
+      "reason": "HTTP 403",
+      "kept": true
+    },
+    {
+      "id": "tva",
+      "name": "Tennessee Valley Authority",
+      "url": "https://www.tva.com/",
+      "reason": "HTTP 403",
+      "kept": true
+    }
+  ]
+}

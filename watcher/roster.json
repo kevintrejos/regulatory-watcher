@@ -1,0 +1,1180 @@
+[
+  {
+    "id": "andrewdesiderio",
+    "name": "Andrew Desiderio",
+    "handle": "andrewdesiderio.bsky.social",
+    "did": "did:plc:yuq4k7g2rjfa6kllb66pb2ch",
+    "outlet": "Punchbowl News",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.92,
+    "tag": "Punchbowl senior congressional, Senate",
+    "bluesky": "andrewdesiderio.bsky.social",
+    "x": null,
+    "selfDescription": "Senior congressional reporter for Punchbowl News, covering the Senate. Proud Italian-American 🇮🇹 & Philly native. [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "bresreports",
+    "name": "John Bresnahan",
+    "handle": "bresreports.bsky.social",
+    "did": "did:plc:iye7zkfi2lu62qq424v2louw",
+    "outlet": "Punchbowl News",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.92,
+    "tag": "Punchbowl co-founder, Capitol Hill",
+    "bluesky": "bresreports.bsky.social",
+    "x": null,
+    "selfDescription": "Co-Founder of Punchbowl News. Longtime Capitol Hill reporter. Yankees fan",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "adamaton",
+    "name": "Adam Aton",
+    "handle": "adamaton.bsky.social",
+    "did": "did:plc:q5y76gojna5woze4fw7pgqmc",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy",
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.9,
+    "tag": "POLITICO State Power, daily state energy newsletter",
+    "bluesky": "adamaton.bsky.social",
+    "x": null,
+    "selfDescription": "Politico reporter and lead author of State Power, a daily newsletter about energy news in the states.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "adragna",
+    "name": "Anthony Adragna",
+    "handle": "adragna.bsky.social",
+    "did": "did:plc:nskvgslr2tplwyeghzgooy4b",
+    "outlet": "Punchbowl News",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.9,
+    "tag": "Punchbowl congressional defense",
+    "bluesky": "adragna.bsky.social",
+    "x": null,
+    "selfDescription": "Congressional defense reporter for Punchbowl News. D.C. native. 🧦 fan.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "emmadumain",
+    "name": "Emma Dumain",
+    "handle": "emmadumain.bsky.social",
+    "did": "did:plc:2rbc64mp5kxio3jkhsnccj5q",
+    "outlet": "POLITICO",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.9,
+    "tag": "POLITICO congressional policy editor",
+    "bluesky": "emmadumain.bsky.social",
+    "x": null,
+    "selfDescription": "Congressional policy editor @politico. Former Congress reporter @eenewsupdates. Soft spot for S.C. politics. Tired mom. ",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "benbrodydc",
+    "name": "Ben Brody",
+    "handle": "benbrodydc.bsky.social",
+    "did": "did:plc:kyjkdp32sm2ultqwghqsu3l7",
+    "outlet": "Punchbowl News",
+    "beat": [
+      "tech"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.88,
+    "tag": "Punchbowl tech policy",
+    "bluesky": "benbrodydc.bsky.social",
+    "x": null,
+    "selfDescription": "Tech policy reporter at Punchbowl News. Formerly MLex, Protocol (RIP), Bloomberg News and lots of others.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "catherineaallen",
+    "name": "Catherine Allen",
+    "handle": "catherineaallen.bsky.social",
+    "did": "did:plc:obbw64qw57kajwponc4bloyq",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.88,
+    "tag": "POLITICO energy data",
+    "bluesky": "catherineaallen.bsky.social",
+    "x": null,
+    "selfDescription": "POLITICO energy data reporter",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "davpjor",
+    "name": "David Jordan",
+    "handle": "davpjor.bsky.social",
+    "did": "did:plc:nqbuhkqjicrzpez63wpjtgck",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.88,
+    "tag": "CQ Roll Call energy and environment",
+    "bluesky": "davpjor.bsky.social",
+    "x": null,
+    "selfDescription": "Energy and environment reporter, CQ Roll Call // [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "hmnorthey",
+    "name": "Hannah Northey",
+    "handle": "hmnorthey.bsky.social",
+    "did": "did:plc:2gmyj2emxfhy7lxdq27qfkft",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.88,
+    "tag": "POLITICO minerals and energy",
+    "bluesky": "hmnorthey.bsky.social",
+    "x": null,
+    "selfDescription": "POLITICO reporter covering all things minerals and energy Prev @LSJNews, @ICFJ, @KnightCenter. DM to connect over Signal",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "kevinbogardus",
+    "name": "Kevin Bogardus",
+    "handle": "kevinbogardus.bsky.social",
+    "did": "did:plc:3ucogsuaf4lzwm53nmiyg7l3",
+    "outlet": "POLITICO",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.88,
+    "tag": "POLITICO agencies, FOIA FARA and LDA",
+    "bluesky": "kevinbogardus.bsky.social",
+    "x": null,
+    "selfDescription": "Politico reporter covering agencies Loves ML, Iz, Mac, Jay, FOIA, FARA, LDA, QPR and PEN Guild Reposts ≠ endorsements My",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "oshaughnessy",
+    "name": "Robert O’Shaughnessy",
+    "handle": "oshaughnessy.bsky.social",
+    "did": "did:plc:xpj6kbgvdwermwdpdzzsyrca",
+    "outlet": "Punchbowl News",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.88,
+    "tag": "Punchbowl deputy congressional editor",
+    "bluesky": "oshaughnessy.bsky.social",
+    "x": null,
+    "selfDescription": "Deputy congressional editor at Punchbowl News Signal: robert.300 Email: robert @ punchbowl (dot) news",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "alexguillen",
+    "name": "Alex Guillen",
+    "handle": "alexguillen.bsky.social",
+    "did": "did:plc:niexfkwpibxlm26twjltcnbo",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "POLITICO Pro, EPA beat",
+    "bluesky": "alexguillen.bsky.social",
+    "x": null,
+    "selfDescription": "Energy reporter for POLITICO Pro on the EPA beat | Founder, POLITICO Museum | VC, PEN Guild | [email removed] | he/him/his",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "benlefebvre",
+    "name": "Ben Lefebvre",
+    "handle": "benlefebvre.bsky.social",
+    "did": "did:plc:6fxbpdnnrl6x7wuues5e6xa2",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "POLITICO energy",
+    "bluesky": "benlefebvre.bsky.social",
+    "x": null,
+    "selfDescription": "POLITICO energy reporter. Native Detroiter. Former WSJ Houston, ICIS Tokyo.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "greggiroux",
+    "name": "Greg Giroux",
+    "handle": "greggiroux.bsky.social",
+    "did": "did:plc:zkyhyxegzazeor2pbhsuoc5x",
+    "outlet": "Bloomberg Government",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "Bloomberg Government, Congress",
+    "bluesky": "greggiroux.bsky.social",
+    "x": null,
+    "selfDescription": "Bloomberg Government reporter analyzing elections, Congress, redistricting. TCM, trivia fan. News.bgov.com",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "jacobnfulton",
+    "name": "jacob fulton",
+    "handle": "jacobnfulton.bsky.social",
+    "did": "did:plc:mny7iklwkmb6sr32wots6jh2",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "CQ morning brief newsletter",
+    "bluesky": "jacobnfulton.bsky.social",
+    "x": null,
+    "selfDescription": "newsletter reporter at CQ Roll Call writing CQ’s morning briefing. medill alum and nlgja member.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "jenhiller",
+    "name": "Jennifer Hiller",
+    "handle": "jenhiller.bsky.social",
+    "did": "did:plc:vubmscwq3gsxxziwbsgyonog",
+    "outlet": "Reuters",
+    "beat": [
+      "energy"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "Reuters energy",
+    "bluesky": "jenhiller.bsky.social",
+    "x": null,
+    "selfDescription": "Wall Street Journal energy reporter covering renewables, energy transition, EV charging, new nuclear, the grid. Houston based. Ex-Reuters, Express-News. Story t",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "lauramaggi",
+    "name": "Laura Maggi",
+    "handle": "lauramaggi.bsky.social",
+    "did": "did:plc:azrw6ptsypqfyftk4pfoxthy",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "POLITICO energy editor, Power Moves",
+    "bluesky": "lauramaggi.bsky.social",
+    "x": null,
+    "selfDescription": "Editor with POLITICO energy team. Power Moves newsletter. [email removed] BEFORE: The Times-Picayune, The Advocate, ",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "nielslesniewski",
+    "name": "Niels Lesniewski",
+    "handle": "nielslesniewski.bsky.social",
+    "did": "did:plc:xcgmvzuo6yq7siph2gbk4hlr",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "CQ Senate, At the Races",
+    "bluesky": "nielslesniewski.bsky.social",
+    "x": null,
+    "selfDescription": "Author of CQ Senate, contributor to Roll Call's At the Races. Chief correspondent at CQ & Roll Call. Currently working while you should be asleep.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "rachelfrazin",
+    "name": "Rachel Frazin",
+    "handle": "rachelfrazin.bsky.social",
+    "did": "did:plc:jnkwo6hcsh5aysgarz2l7v6j",
+    "outlet": "The Hill",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "The Hill energy and environment",
+    "bluesky": "rachelfrazin.bsky.social",
+    "x": null,
+    "selfDescription": "Energy/Environment/Climate reporter at The Hill | co-author of a book on 'forever chemicals' (PFAS): islandpress.org/books/poisoning-well | last name pronounced",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "rbravender",
+    "name": "Robin Bravender",
+    "handle": "rbravender.bsky.social",
+    "did": "did:plc:jbx2cd4a42anirhz57qzrhth",
+    "outlet": "E&E News",
+    "beat": [
+      "energy",
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "E&E News",
+    "bluesky": "rbravender.bsky.social",
+    "x": null,
+    "selfDescription": "E&E News reporter. Michigander.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "zcolman",
+    "name": "Zack Colman",
+    "handle": "zcolman.bsky.social",
+    "did": "did:plc:k2urk5rhc23dq2tutw7u2ldz",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.85,
+    "tag": "POLITICO climate and energy",
+    "bluesky": "zcolman.bsky.social",
+    "x": null,
+    "selfDescription": "POLITICO climate & energy reporter SIGNAL: zcolman.75",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "aarontmak",
+    "name": "Aaron Mak",
+    "handle": "aarontmak.bsky.social",
+    "did": "did:plc:xpumnf7v2xihgopa6wnnkbyi",
+    "outlet": "POLITICO",
+    "beat": [
+      "tech"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.82,
+    "tag": "POLITICO tech",
+    "bluesky": "aarontmak.bsky.social",
+    "x": null,
+    "selfDescription": "Politico tech reporter. Signal: aarontmak.23. Email: amak(at)politico(dot)com",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "catemartel",
+    "name": "Cate Martel",
+    "handle": "catemartel.bsky.social",
+    "did": "did:plc:3xrn4qqu5lmusfomzzcgt6pi",
+    "outlet": "The Hill",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.82,
+    "tag": "The Hill national politics, 12:30 Report",
+    "bluesky": "catemartel.bsky.social",
+    "x": null,
+    "selfDescription": "national political reporter for The Hill | 12:30 Report newsletter creator and author | always searching for the best bakery/hidden gem Past: Politico, WJLA-TV,",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "kheel",
+    "name": "Rebecca Kheel",
+    "handle": "kheel.bsky.social",
+    "did": "did:plc:ow3qljf5dovzpff4kranlrwh",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.82,
+    "tag": "CQ Roll Call defense",
+    "bluesky": "kheel.bsky.social",
+    "x": null,
+    "selfDescription": "Defense reporter at CQ Roll Call. Email: [email removed]. Signal: rhkheel.52. DM for cell/WhatsApp",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "nicolecobler",
+    "name": "Nicole Cobler",
+    "handle": "nicolecobler.bsky.social",
+    "did": "did:plc:6sindv3jvljtmkmwk25thegd",
+    "outlet": "Axios",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "TX"
+    ],
+    "weight": 0.82,
+    "tag": "Axios Austin, Texas capitol",
+    "bluesky": "nicolecobler.bsky.social",
+    "x": null,
+    "selfDescription": "Axios Austin reporter 📝 UT Austin lecturer 🤘 [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "naurtorious",
+    "name": "Naureen S. Malik",
+    "handle": "naurtorious.bsky.social",
+    "did": "did:plc:rfbvq7r5iqk7xlsbwmplbqhm",
+    "outlet": "Bloomberg",
+    "beat": [
+      "energy"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.8,
+    "tag": "Bloomberg energy",
+    "bluesky": "naurtorious.bsky.social",
+    "x": null,
+    "selfDescription": "Energy reporter @ Bloomberg News. Opinions are my own. Reposts are not endorsements.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "nytceciliakang",
+    "name": "Cecilia Kang",
+    "handle": "nytceciliakang.bsky.social",
+    "did": "did:plc:mc5gpnn2ihhe3a2mxgft35k4",
+    "outlet": null,
+    "beat": [
+      "tech",
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.8,
+    "tag": "NYT tech policy",
+    "bluesky": "nytceciliakang.bsky.social",
+    "x": null,
+    "selfDescription": "NYTimes Tech Policy Reporter, co-author \"An Ugly Truth: Inside Facebook's Battle for Domination\" with @sheeraf.bsky.social Also tree, moss, boulder hugger from ",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "samsabin",
+    "name": "Sam Sabin",
+    "handle": "samsabin.bsky.social",
+    "did": "did:plc:mpkmi2rfq75ei6j32obwcvvc",
+    "outlet": "Axios",
+    "beat": [
+      "tech"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.8,
+    "tag": "Axios cybersecurity",
+    "bluesky": "samsabin.bsky.social",
+    "x": null,
+    "selfDescription": "Axios cybersecurity reporter, taking it day by day ✨ | 📩: sam.sabin@axios dot com, signal: SamSabin.01 (no pitches!), s",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "scottpwaldman",
+    "name": "Scott Waldman",
+    "handle": "scottpwaldman.bsky.social",
+    "did": "did:plc:py3iflznoekuxvr7fa3yvt6k",
+    "outlet": "POLITICO",
+    "beat": [
+      "energy",
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.8,
+    "tag": "POLITICO White House energy",
+    "bluesky": "scottpwaldman.bsky.social",
+    "x": null,
+    "selfDescription": "White House energy reporter for POLITICO [email removed] Signal: @waldman.04",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "taysute17",
+    "name": "tara suter",
+    "handle": "taysute17.bsky.social",
+    "did": "did:plc:mnudldnlj6vj4mpioa2yil5x",
+    "outlet": "The Hill",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.8,
+    "tag": "The Hill breaking news",
+    "bluesky": "taysute17.bsky.social",
+    "x": null,
+    "selfDescription": "breaking news reporter for the hill. pnw girly in dc.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "valerieyurk",
+    "name": "Valerie Yurk",
+    "handle": "valerieyurk.bsky.social",
+    "did": "did:plc:siibwlw3w6zj4qc3ssv4jpfi",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.8,
+    "tag": "CQ Roll Call transportation and infrastructure",
+    "bluesky": "valerieyurk.bsky.social",
+    "x": null,
+    "selfDescription": "Covering transportation and infrastructure at CQ/Roll Call. MFA pursuer. Wisconsin transplant in DC.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "hillburn",
+    "name": "Daniel Hillburn",
+    "handle": "hillburn.bsky.social",
+    "did": "did:plc:ixryqrhmjlc4yj5p5zyraqk7",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.78,
+    "tag": "CQ Roll Call Congress",
+    "bluesky": "hillburn.bsky.social",
+    "x": null,
+    "selfDescription": "Covering Congress for CQ Roll Call",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "mmineiro",
+    "name": "Megan Mineiro",
+    "handle": "mmineiro.bsky.social",
+    "did": "did:plc:mo45kjokq72auaosopvmobgv",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.78,
+    "tag": "CQ Roll Call Congress",
+    "bluesky": "mmineiro.bsky.social",
+    "x": null,
+    "selfDescription": "Covering Congress for CQ Roll Call / [email removed] / Listen to CQ Morning Briefing http://tinyurl.com/yn7wum82",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "ninaheller",
+    "name": "Nina Heller",
+    "handle": "ninaheller.bsky.social",
+    "did": "did:plc:tposobclyq2ckcjybhbvuapa",
+    "outlet": "CQ Roll Call",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.78,
+    "tag": "CQ Roll Call Congress",
+    "bluesky": "ninaheller.bsky.social",
+    "x": null,
+    "selfDescription": "Covering Congress at CQ Roll Call. Lover of good coffee and bad reality TV. she/her",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "alexdegman",
+    "name": "Alex Degman",
+    "handle": "alexdegman.bsky.social",
+    "did": "did:plc:ir2vz4z66qgtxgj2hfeetzqu",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "IL"
+    ],
+    "weight": 0.75,
+    "tag": "Illinois statehouse",
+    "bluesky": "alexdegman.bsky.social",
+    "x": null,
+    "selfDescription": "Statehouse reporter for WBEZ Chicago based in Springfield. Hi!",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "benszalinski",
+    "name": "Ben Szalinski",
+    "handle": "benszalinski.bsky.social",
+    "did": "did:plc:mhmh4qbggtd3kiwzxjrsy2vt",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "IL"
+    ],
+    "weight": 0.75,
+    "tag": "Illinois statehouse",
+    "bluesky": "benszalinski.bsky.social",
+    "x": null,
+    "selfDescription": "Statehouse reporter for Capitol News Illinois | UIS PAR grad | Sports opinions mine | [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "ellanilsen",
+    "name": "Ella Nilsen",
+    "handle": "ellanilsen.bsky.social",
+    "did": "did:plc:3qbdrboerihasyf2igkz2uvi",
+    "outlet": null,
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.75,
+    "tag": "climate and energy",
+    "bluesky": "ellanilsen.bsky.social",
+    "x": null,
+    "selfDescription": "VP, Echo Communications Advisors. Former CNN senior climate/energy reporter. Granite stater, forever missing the mountains. Email me: [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "juliathejournalist",
+    "name": "Julia Mueller",
+    "handle": "juliathejournalist.bsky.social",
+    "did": "did:plc:m7ixdmymn34xmjataun4yy2a",
+    "outlet": "The Hill",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.75,
+    "tag": "The Hill politics",
+    "bluesky": "juliathejournalist.bsky.social",
+    "x": null,
+    "selfDescription": "politics reporter at The Hill uosojc & medill alum",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "kbrigham",
+    "name": "katie brigham",
+    "handle": "kbrigham.bsky.social",
+    "did": "did:plc:4qai5tsnexrlttkeyi6vup3e",
+    "outlet": "Heatmap",
+    "beat": [
+      "energy",
+      "climate",
+      "tech"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.75,
+    "tag": "Heatmap climate tech",
+    "bluesky": "kbrigham.bsky.social",
+    "x": null,
+    "selfDescription": "climate tech reporter (aka ENERGY DOMINANCE reporter) at @heatmap.news | signal: katieb.40 📍 Seattle, WA",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "morgantrau",
+    "name": "Morgan Trau",
+    "handle": "morgantrau.bsky.social",
+    "did": "did:plc:omgv7ey73kvf2bj3k2ggjoxk",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "OH"
+    ],
+    "weight": 0.75,
+    "tag": "Ohio statehouse",
+    "bluesky": "morgantrau.bsky.social",
+    "x": null,
+    "selfDescription": "Ohio Statehouse reporter for News 5 Cleveland, WCPO 9 News, Scripps News with words in the Ohio Capital Journal.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "snietomunoz",
+    "name": "sophie nieto-muñoz",
+    "handle": "snietomunoz.bsky.social",
+    "did": "did:plc:ecsr4icljflats7w2gpom2vk",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "NJ"
+    ],
+    "weight": 0.75,
+    "tag": "New Jersey statehouse",
+    "bluesky": "snietomunoz.bsky.social",
+    "x": null,
+    "selfDescription": "statehouse reporter @ New Jersey Monitor / 🇦🇷 hablo español / rutgers alum",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "sstapczynski",
+    "name": "Stephen Stapczynski",
+    "handle": "sstapczynski.bsky.social",
+    "did": "did:plc:jcfqfvo4na6z2s4g4kuhbqia",
+    "outlet": "Bloomberg",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.75,
+    "tag": "Bloomberg energy and commodities",
+    "bluesky": "sstapczynski.bsky.social",
+    "x": null,
+    "selfDescription": "The LNG nerd on Bluesky Energy & commodities reporter at Bloomberg News in Singapore. Opinions my own Interests include natural gas, LNG, oil, power, coal, nucl",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "wdownard",
+    "name": "Whitney Downard",
+    "handle": "wdownard.bsky.social",
+    "did": "did:plc:2n6r4qe2f4cso66lqwzi2puc",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "PA"
+    ],
+    "weight": 0.75,
+    "tag": "Pennsylvania statehouse",
+    "bluesky": "wdownard.bsky.social",
+    "x": null,
+    "selfDescription": "Statehouse Reporter for the Pennsylvania Capital-Star. Previously with the Indiana Capital Chronicle. Proud SBU grad and cat mom. #GoBonnies 🐺",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "niallstanage",
+    "name": "Niall Stanage",
+    "handle": "niallstanage.bsky.social",
+    "did": "did:plc:qntox3xfkrozgi6obb23rlp6",
+    "outlet": "The Hill",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.72,
+    "tag": "The Hill White House columnist",
+    "bluesky": "niallstanage.bsky.social",
+    "x": null,
+    "selfDescription": "White House Columnist at The Hill, TV with “Rising,” NewsNation and elsewhere, product of Ireland.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "emmamurphyj",
+    "name": "Emma Murphy",
+    "handle": "emmamurphyj.bsky.social",
+    "did": "did:plc:qnum6zb6soipzaugurhoebcs",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "statehouse",
+    "bluesky": "emmamurphyj.bsky.social",
+    "x": null,
+    "selfDescription": "Statehouse reporter for @OklahomaVoice.com with @StatesNewsroom.com | Mizzou J-School alum | [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "ethandewitt",
+    "name": "Ethan DeWitt",
+    "handle": "ethandewitt.bsky.social",
+    "did": "did:plc:jvjlke5tznh7cdehhipb3kyu",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "NH"
+    ],
+    "weight": 0.7,
+    "tag": "New Hampshire statehouse",
+    "bluesky": "ethandewitt.bsky.social",
+    "x": null,
+    "selfDescription": "Statehouse/education reporter for the New Hampshire Bulletin. Formerly: Concord Monitor, Keene Sentinel.",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "jensolis",
+    "name": "Jen Solis (so-LEEZ)",
+    "handle": "jensolis.bsky.social",
+    "did": "did:plc:6a73fcr3sdktgc4cu5udzcaz",
+    "outlet": null,
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "energy and climate",
+    "bluesky": "jensolis.bsky.social",
+    "x": null,
+    "selfDescription": "environment, energy, etc reporter @nevadacurrent.com |🇲🇽🇬🇹🏳️‍🌈| DEIJ Chair @statesnewsroom.com |💧🌽 | Tips/questions: [email removed]",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "karinrives",
+    "name": "Karin Rives",
+    "handle": "karinrives.bsky.social",
+    "did": "did:plc:vpxsrk6dlfzxtuish4wljuih",
+    "outlet": null,
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "energy and climate",
+    "bluesky": "karinrives.bsky.social",
+    "x": null,
+    "selfDescription": "Senior climate and energy reporter at S&P Global. Any opinions expressed here are my own!",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "kateconger",
+    "name": "kate conger",
+    "handle": "kateconger.com",
+    "did": "did:plc:5siz7r23475fek2mj6p5zhzw",
+    "outlet": "The New York Times",
+    "beat": [
+      "tech"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "NYT tech",
+    "bluesky": "kateconger.com",
+    "x": null,
+    "selfDescription": "tech reporter for the NYT! co-author of CHARACTER LIMIT! signal: kateconger.11 buy our book: https://www.penguinrandomhouse.com/books/737290/character-limit-by-",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "kayladwyer",
+    "name": "Kayla Dwyer",
+    "handle": "kayladwyer.bsky.social",
+    "did": "did:plc:ywqufo74nubqlux4idzp7b23",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "statehouse",
+    "bluesky": "kayladwyer.bsky.social",
+    "x": null,
+    "selfDescription": "Statehouse reporter for IndyStar. Signal: 317-431-6992",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "miriamwasser",
+    "name": "Miriam Wasser",
+    "handle": "miriamwasser.bsky.social",
+    "did": "did:plc:u2rzwwbe6lojlxbgnom4xx24",
+    "outlet": "NPR",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "MA"
+    ],
+    "weight": 0.7,
+    "tag": "WBUR climate and energy",
+    "bluesky": "miriamwasser.bsky.social",
+    "x": null,
+    "selfDescription": "Climate and energy reporter for WBUR, Boston's NPR. Email: [email removed] Signal: Miriam_Wasser.47 https://www.wbur.org/inside/staff/miriam-wasser",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "pattersonscott",
+    "name": "Scott Patterson",
+    "handle": "pattersonscott.bsky.social",
+    "did": "did:plc:j3hbohhd2vrre2ncunfs56h3",
+    "outlet": "The New York Times",
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "energy and climate",
+    "bluesky": "pattersonscott.bsky.social",
+    "x": null,
+    "selfDescription": "Climate and energy reporter @WSJ. Author of NYT-best seller The Quants, Dark Pools and Chaos Kings. https://www.amazon.com/Chaos-Kings-Street-Traders-Billions/d",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "sammyroth",
+    "name": "Sammy Roth",
+    "handle": "sammyroth.bsky.social",
+    "did": "did:plc:ouz6pifo2pbg5zl5fsezoft7",
+    "outlet": null,
+    "beat": [
+      "energy",
+      "climate"
+    ],
+    "jurisdiction": [
+      "CA"
+    ],
+    "weight": 0.7,
+    "tag": "climate newsletter, formerly LA Times",
+    "bluesky": "sammyroth.bsky.social",
+    "x": null,
+    "selfDescription": "I write Climate-Colored Goggles, a newsletter about climate & culture. Former L.A. Times climate columnist and Desert Sun energy reporter. Also hosted Boiling P",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "sophiavento",
+    "name": "Sophia Vento",
+    "handle": "sophiavento.bsky.social",
+    "did": "did:plc:ick6dq3q5ev4eblypjuqrowy",
+    "outlet": "The Hill",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "The Hill associate editor",
+    "bluesky": "sophiavento.bsky.social",
+    "x": null,
+    "selfDescription": "Associate Editor at The Hill",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "stephenkoranda",
+    "name": "Stephen Koranda",
+    "handle": "stephenkoranda.bsky.social",
+    "did": "did:plc:vjltpz3l6fptbvwvnwnd6cgx",
+    "outlet": null,
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "statehouse",
+    "bluesky": "stephenkoranda.bsky.social",
+    "x": null,
+    "selfDescription": "Managing editor of the Kansas News Service, a multi-station, non-profit news collaborative based at KCUR. Previously the Kansas Statehouse reporter for 12 years",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "zackhale",
+    "name": "Zack Hale",
+    "handle": "zackhale.bsky.social",
+    "did": "did:plc:i45qgtqg4ajwrnys2kr7kkny",
+    "outlet": null,
+    "beat": [
+      "energy",
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "energy policy",
+    "bluesky": "zackhale.bsky.social",
+    "x": null,
+    "selfDescription": "Federal energy policy reporter for S&P Global Commodity Insights. Mostly tweets on electricity stuff ⚡️ Pacific Northwest native 🏔️ 🌲",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "zschonfeld",
+    "name": "Zach Schonfeld",
+    "handle": "zschonfeld.bsky.social",
+    "did": "did:plc:d53hojpp47eg2ifzd535dbfe",
+    "outlet": "The Hill",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.7,
+    "tag": "The Hill courts",
+    "bluesky": "zschonfeld.bsky.social",
+    "x": null,
+    "selfDescription": "Reporter covering the Supreme Court and the intersection of the judiciary & national politics for The Hill. [email removed].",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  },
+  {
+    "id": "meganlbasham",
+    "name": "Megan Basham",
+    "handle": "meganlbasham.bsky.social",
+    "did": "did:plc:pguax4qyrorrmyk44ivkdnyb",
+    "outlet": "The Daily Wire",
+    "beat": [
+      "politics"
+    ],
+    "jurisdiction": [
+      "US"
+    ],
+    "weight": 0.6,
+    "tag": "Daily Wire culture reporter",
+    "bluesky": "meganlbasham.bsky.social",
+    "x": null,
+    "selfDescription": "NYT bestselling author, Daily Wire culture reporter. Joel Berry told me this was a magical place where I could live my truth as MegAN not Meg. Feels so good to ",
+    "verifiedAt": "2026-09-22",
+    "verifiedBy": "bluesky AppView profile"
+  }
+]

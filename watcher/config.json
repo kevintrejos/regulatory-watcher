@@ -1,0 +1,22 @@
+{
+  "windowDays": 45,
+  "maxPostsPerAuthor": 60,
+  "threshold": 0.45,
+  "concurrency": 4,
+  "politeDelayMs": 120,
+  "bluesky": { "enabled": true },
+  "x": {
+    "enabled": true,
+    "monthlyReadBudget": 90000,
+    "costPerRead": 0.005,
+    "note": "Filtered stream is Pro or Enterprise only, so this adapter polls the user timeline instead. Every post returned is a billed read."
+  },
+  "topics": {
+    "largeload": ["large load", "data center", "data centre", "hyperscaler", "colocation"],
+    "interconnection": ["interconnection", "queue reform", "transmission queue"],
+    "reliability": ["reliability standard", "NERC", "resource adequacy", "curtailment"],
+    "ratepayer": ["ratepayer", "cost allocation", "rate case", "electricity bills"],
+    "permitting": ["permitting reform", "NEPA", "siting"],
+    "ai": ["AI policy", "artificial intelligence", "compute", "frontier model"]
+  }
+}

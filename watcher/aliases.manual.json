@@ -1,0 +1,7 @@
+{
+  "_note": "Press nicknames a human added. Machines cannot guess what reporters decide to call a bill, and this is the one place that knowledge lives. Keyed by the item id in the prototype data files.",
+  "ca-sb886": ["the data center bill"],
+  "hr9340": ["the ratepayer bill"],
+  "nerc-2602": ["the computational load standard", "the large load standard"],
+  "ferc-showcause": ["the show cause orders"]
+}

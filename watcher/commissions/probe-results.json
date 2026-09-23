@@ -1,0 +1,192 @@
+[
+  {
+    "name": "FERC eLibrary",
+    "url": "https://elibrary.ferc.gov/eLibrary/search",
+    "status": 200,
+    "ms": 308,
+    "bytes": 22464,
+    "words": 1,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": true
+  },
+  {
+    "name": "FERC news",
+    "url": "https://www.ferc.gov/news-events/news",
+    "status": 403,
+    "ms": 425,
+    "bytes": 5792,
+    "words": 9,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": true
+  },
+  {
+    "name": "PUCT Interchange",
+    "url": "https://interchange.puc.texas.gov/",
+    "status": 200,
+    "ms": 548,
+    "bytes": 24805,
+    "words": 285,
+    "platforms": [
+      "ASP.NET WebForms"
+    ],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "CPUC",
+    "url": "https://www.cpuc.ca.gov/",
+    "status": 200,
+    "ms": 1108,
+    "bytes": 62325,
+    "words": 473,
+    "platforms": [
+      "ASP.NET WebForms"
+    ],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "CPUC docket search",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:1",
+    "status": 200,
+    "ms": 453,
+    "bytes": 26014,
+    "words": 271,
+    "platforms": [
+      "Oracle APEX"
+    ],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "PA PUC",
+    "url": "https://www.puc.pa.gov/",
+    "status": 200,
+    "ms": 1702,
+    "bytes": 52424,
+    "words": 1120,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "Ohio PUCO docketing",
+    "url": "https://dis.puc.state.oh.us/",
+    "status": 200,
+    "ms": 612,
+    "bytes": 44393,
+    "words": 49,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": true
+  },
+  {
+    "name": "Illinois ICC",
+    "url": "https://www.icc.illinois.gov/",
+    "status": 200,
+    "ms": 1376,
+    "bytes": 37046,
+    "words": 536,
+    "platforms": [
+      "ASP.NET WebForms"
+    ],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "Virginia SCC",
+    "url": "https://scc.virginia.gov/",
+    "status": 200,
+    "ms": 822,
+    "bytes": 31050,
+    "words": 392,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "Georgia PSC",
+    "url": "https://psc.ga.gov/",
+    "status": 200,
+    "ms": 1379,
+    "bytes": 56032,
+    "words": 1497,
+    "platforms": [
+      "ASP.NET WebForms"
+    ],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "NY DPS documents",
+    "url": "https://documents.dps.ny.gov/public/",
+    "status": 200,
+    "ms": 999,
+    "bytes": 4049,
+    "words": 70,
+    "platforms": [
+      "ASP.NET WebForms"
+    ],
+    "feeds": [],
+    "jsShell": true
+  },
+  {
+    "name": "NJ BPU",
+    "url": "https://www.nj.gov/bpu/",
+    "status": 200,
+    "ms": 346,
+    "bytes": 55302,
+    "words": 955,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "Michigan PSC",
+    "url": "https://www.michigan.gov/mpsc",
+    "status": 200,
+    "ms": 1149,
+    "bytes": 197527,
+    "words": 1474,
+    "platforms": [
+      "ASP.NET WebForms"
+    ],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "NERC",
+    "url": "https://www.nerc.com/Pages/default.aspx",
+    "status": 200,
+    "ms": 569,
+    "bytes": 63747,
+    "words": 62,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": true
+  },
+  {
+    "name": "ERCOT",
+    "url": "https://www.ercot.com/",
+    "status": 200,
+    "ms": 647,
+    "bytes": 135206,
+    "words": 1075,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": false
+  },
+  {
+    "name": "NARUC",
+    "url": "https://www.naruc.org/",
+    "status": 200,
+    "ms": 3820,
+    "bytes": 71776,
+    "words": 1176,
+    "platforms": [],
+    "feeds": [],
+    "jsShell": false
+  }
+]

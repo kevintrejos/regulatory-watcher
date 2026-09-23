@@ -1,0 +1,4134 @@
+{
+  "_what": "Bodies that hold regulatory power over the clients, not only utility commissions. A data centre is permitted by a state environmental agency, sited by a siting board, its generators licensed by an air district and its cooling water by a water board. A defence client lives under FAA, export controls and CFIUS. Every row was verified by a live probe; access records what the probe found, not what the site claims.",
+  "_access": {
+    "api": "A real JSON endpoint. Cheapest and most reliable. Prefer always.",
+    "html": "Server-rendered. A plain fetch returns the content, so a page differ works.",
+    "js": "Client-rendered shell. A plain fetch returns nothing useful. Either find the XHR endpoint behind it (often there is one) or drive a headless browser.",
+    "blocked": "Refuses automated requests."
+  },
+  "_cadence": "Drives when to expect activity and how to read silence. No movement on a docket means one thing the week before an open meeting and another in August.",
+  "bodies": [
+    {
+      "id": "ferc",
+      "name": "Federal Energy Regulatory Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Federal Power Act; DOE Organization Act of 1977",
+      "status": "active",
+      "url": "https://elibrary.ferc.gov/eLibrary/search",
+      "access": "api",
+      "adapter": "ferc",
+      "endpoint": "https://elibrary.ferc.gov/eLibraryWebAPI/api/Search/AdvancedSearch",
+      "cadence": {
+        "pattern": "monthly",
+        "note": "open meeting usually the third Thursday; filings land daily"
+      },
+      "pollEvery": "1h",
+      "topics": [
+        "energy",
+        "interconnection",
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "env-al",
+      "name": "Alabama Department of Environmental Management",
+      "jurisdiction": "AL",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://adem.alabama.gov/",
+      "siteTitle": "Home | Alabama Department of Environmental Management",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-al",
+      "name": "Alabama Public Service Commission",
+      "jurisdiction": "AL",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.alabama.gov/",
+      "siteTitle": "APSC &ndash; New Alabama PSC Website",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ar",
+      "name": "Arkansas Division of Environmental Quality",
+      "jurisdiction": "AR",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://adeq.state.ar.us/",
+      "siteTitle": "Division of Environmental Quality (DEQ)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ar",
+      "name": "Arkansas Public Service Commission",
+      "jurisdiction": "AR",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://apsc.arkansas.gov/",
+      "siteTitle": "Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-az",
+      "name": "Arizona Corporation Commission",
+      "jurisdiction": "AZ",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.azcc.gov/",
+      "siteTitle": "Arizona Corporation Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "aqmd-bay-area",
+      "name": "Bay Area Air Quality Management District",
+      "jurisdiction": "CA",
+      "type": "district",
+      "authority": "California Health and Safety Code",
+      "status": "active",
+      "url": "https://www.baaqmd.gov/",
+      "siteTitle": "BAAQMD",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "air",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "aqmd-sacramento",
+      "name": "Sacramento Metropolitan Air Quality Management District",
+      "jurisdiction": "CA",
+      "type": "district",
+      "authority": "California Health and Safety Code",
+      "status": "active",
+      "url": "https://www.airquality.org/",
+      "siteTitle": "Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "air",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "aqmd-san-joaquin",
+      "name": "San Joaquin Valley Air Pollution Control District",
+      "jurisdiction": "CA",
+      "type": "district",
+      "authority": "California Health and Safety Code",
+      "status": "active",
+      "url": "https://ww2.valleyair.org/",
+      "siteTitle": "Home | Valley Air District",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "air",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "aqmd-south-coast",
+      "name": "South Coast Air Quality Management District",
+      "jurisdiction": "CA",
+      "type": "district",
+      "authority": "California Health and Safety Code",
+      "status": "active",
+      "url": "https://www.aqmd.gov/",
+      "siteTitle": "AQMD - Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "air",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "caiso",
+      "name": "California ISO",
+      "jurisdiction": "CA",
+      "type": "iso",
+      "authority": "FERC-jurisdictional ISO",
+      "status": "active",
+      "url": "https://www.caiso.com/",
+      "siteTitle": "Home | California ISO",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "carb-ca",
+      "name": "California Air Resources Board",
+      "jurisdiction": "CA",
+      "type": "board",
+      "authority": "Health and Safety Code division 26",
+      "status": "active",
+      "url": "https://ww2.arb.ca.gov/",
+      "siteTitle": "Homepage | California Air Resources Board",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "air",
+        "climate"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "cec-ca",
+      "name": "California Energy Commission",
+      "jurisdiction": "CA",
+      "type": "commission",
+      "authority": "Warren-Alquist Act",
+      "status": "active",
+      "url": "https://www.energy.ca.gov/",
+      "siteTitle": "Home Page-California Energy Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting",
+        "energy",
+        "efficiency"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "cpuc",
+      "name": "California Public Utilities Commission",
+      "jurisdiction": "CA",
+      "type": "commission",
+      "authority": "California Public Utilities Code",
+      "status": "active",
+      "url": "https://www.cpuc.ca.gov/",
+      "docketUrl": "https://apps.cpuc.ca.gov/apex/f?p=401:1",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Oracle APEX",
+      "cadence": {
+        "pattern": "biweekly",
+        "note": "voting meetings roughly every two weeks"
+      },
+      "pollEvery": "6h",
+      "topics": [
+        "energy",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "California Public Utilities Commission",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-ca",
+      "name": "California Environmental Protection Agency",
+      "jurisdiction": "CA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://calepa.ca.gov/",
+      "siteTitle": "CalEPA | California Environmental Protection Agency",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "swrcb-ca",
+      "name": "California State Water Resources Control Board",
+      "jurisdiction": "CA",
+      "type": "board",
+      "authority": "Porter-Cologne Water Quality Control Act",
+      "status": "active",
+      "url": "https://www.waterboards.ca.gov/",
+      "siteTitle": "Home Page | California State Water Resources Control Board",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "env-co",
+      "name": "Colorado Department of Public Health and Environment",
+      "jurisdiction": "CO",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://cdphe.colorado.gov/",
+      "siteTitle": "Home | Colorado Department of Public Health and Environment",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-co",
+      "name": "Colorado Public Utilities Commission",
+      "jurisdiction": "CO",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.colorado.gov/",
+      "siteTitle": "HOME PAGE Public Utilities Commission | Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ct",
+      "name": "Connecticut Department of Energy and Environmental Protection",
+      "jurisdiction": "CT",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://portal.ct.gov/deep",
+      "siteTitle": "Department of Energy &amp; Environmental Protection",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ct",
+      "name": "Connecticut PURA",
+      "jurisdiction": "CT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://portal.ct.gov/pura",
+      "siteTitle": "Public Utilities Regulatory Authority",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "siting-ct",
+      "name": "Connecticut Siting Council",
+      "jurisdiction": "CT",
+      "type": "council",
+      "authority": "CGS 16-50g",
+      "status": "active",
+      "url": "https://portal.ct.gov/csc",
+      "siteTitle": "Connecticut Siting Council",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "env-dc",
+      "name": "DC Department of Energy and Environment",
+      "jurisdiction": "DC",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://doee.dc.gov/",
+      "siteTitle": "| doee",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-dc",
+      "name": "DC Public Service Commission",
+      "jurisdiction": "DC",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://dcpsc.org/",
+      "siteTitle": "DCPSC - Public Service Commission of the District of Columbia",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-de",
+      "name": "Delaware DNREC",
+      "jurisdiction": "DE",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dnrec.delaware.gov/",
+      "siteTitle": "DNREC - State of Delaware",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-de",
+      "name": "Delaware Public Service Commission",
+      "jurisdiction": "DE",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://depsc.delaware.gov/",
+      "siteTitle": "Delaware Public Service Commission (PSC) - State of Delaware",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-fl",
+      "name": "Florida Department of Environmental Protection",
+      "jurisdiction": "FL",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://floridadep.gov/",
+      "siteTitle": "Welcome to Florida Department of Environmental Protection",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "env-ga",
+      "name": "Georgia Environmental Protection Division",
+      "jurisdiction": "GA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://epd.georgia.gov/",
+      "siteTitle": "Environmental Protection Division",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "psc-ga",
+      "name": "Georgia Public Service Commission",
+      "jurisdiction": "GA",
+      "type": "commission",
+      "authority": "O.C.G.A. Title 46",
+      "status": "active",
+      "url": "https://psc.ga.gov/",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "biweekly"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Home | Georgia Public Service Commission",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-hi",
+      "name": "Hawaii Department of Health, Environmental Management",
+      "jurisdiction": "HI",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://health.hawaii.gov/epo/",
+      "siteTitle": "Environmental Planning Office &#8211; State of Hawaii, Department of Health",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-hi",
+      "name": "Hawaii Public Utilities Commission",
+      "jurisdiction": "HI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.hawaii.gov/",
+      "siteTitle": "Public Utilities Commission &#8211; State of Hawaii",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ia",
+      "name": "Iowa Department of Natural Resources",
+      "jurisdiction": "IA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.iowadnr.gov/",
+      "siteTitle": "Iowa Department of Natural Resources | Department of Natural Resources",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ia",
+      "name": "Iowa Utilities Commission",
+      "jurisdiction": "IA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://iuc.iowa.gov/",
+      "siteTitle": "Welcome to the Iowa Utilities Commission | Iowa Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-id",
+      "name": "Idaho Department of Environmental Quality",
+      "jurisdiction": "ID",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.deq.idaho.gov/",
+      "siteTitle": "Idaho Department of Environmental Quality | Welcome",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-id",
+      "name": "Idaho Public Utilities Commission",
+      "jurisdiction": "ID",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.idaho.gov/",
+      "siteTitle": "Home Page - IPUC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-il",
+      "name": "Illinois Environmental Protection Agency",
+      "jurisdiction": "IL",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://epa.illinois.gov/",
+      "siteTitle": "EPA",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "icc-il",
+      "name": "Illinois Commerce Commission",
+      "jurisdiction": "IL",
+      "type": "commission",
+      "authority": "220 ILCS 5",
+      "status": "active",
+      "url": "https://icc.illinois.gov/",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "biweekly"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Illinois Commerce Commission",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-in",
+      "name": "Indiana Department of Environmental Management",
+      "jurisdiction": "IN",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.in.gov/idem/",
+      "siteTitle": "Indiana Department of Environmental Management: Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-in",
+      "name": "Indiana Utility Regulatory Commission",
+      "jurisdiction": "IN",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.in.gov/iurc/",
+      "siteTitle": "IURC: Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-ks",
+      "name": "Kansas Corporation Commission",
+      "jurisdiction": "KS",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.kcc.ks.gov/",
+      "siteTitle": "Kansas Corporation Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ky",
+      "name": "Kentucky Energy and Environment Cabinet",
+      "jurisdiction": "KY",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://eec.ky.gov/Pages/index.aspx",
+      "siteTitle": "Welcome&nbsp;- Kentucky Energy and Environment Cabinet",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ky",
+      "name": "Kentucky Public Service Commission",
+      "jurisdiction": "KY",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.ky.gov/",
+      "siteTitle": "KY PSC Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-la",
+      "name": "Louisiana Department of Environmental Quality",
+      "jurisdiction": "LA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.deq.louisiana.gov/",
+      "siteTitle": "Home | Louisiana Department of Environmental Quality",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-la",
+      "name": "Louisiana Public Service Commission",
+      "jurisdiction": "LA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.lpsc.louisiana.gov/",
+      "siteTitle": "LPSC - Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ma",
+      "name": "Massachusetts Department of Environmental Protection",
+      "jurisdiction": "MA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection",
+      "siteTitle": "Massachusetts Department of Environmental Protection | Mass.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ma",
+      "name": "Massachusetts Department of Public Utilities",
+      "jurisdiction": "MA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.mass.gov/orgs/department-of-public-utilities",
+      "siteTitle": "Department of Public Utilities | Mass.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "siting-ma",
+      "name": "Massachusetts Energy Facilities Siting Board",
+      "jurisdiction": "MA",
+      "type": "board",
+      "authority": "MGL c.164 s.69H",
+      "status": "active",
+      "url": "https://www.mass.gov/orgs/energy-facilities-siting-board",
+      "siteTitle": "Energy Facilities Siting Board | Mass.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "env-md",
+      "name": "Maryland Department of the Environment",
+      "jurisdiction": "MD",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://mde.maryland.gov/Pages/index.aspx",
+      "siteTitle": "Maryland Department of the Environment",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-md",
+      "name": "Maryland Public Service Commission",
+      "jurisdiction": "MD",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.maryland.gov/",
+      "siteTitle": "Maryland Public Service Commission (PSC) | Official Website",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-me",
+      "name": "Maine Department of Environmental Protection",
+      "jurisdiction": "ME",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.maine.gov/dep/",
+      "siteTitle": "Maine Department of Environmental Protection",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-me",
+      "name": "Maine Public Utilities Commission",
+      "jurisdiction": "ME",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.maine.gov/mpuc/",
+      "siteTitle": "Maine Public Utilities Commission Homepage | MPUC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-mi",
+      "name": "Michigan EGLE",
+      "jurisdiction": "MI",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.michigan.gov/egle",
+      "siteTitle": "Environment, Great Lakes, and Energy",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "mpsc-mi",
+      "name": "Michigan Public Service Commission",
+      "jurisdiction": "MI",
+      "type": "commission",
+      "authority": "MCL 460.1",
+      "status": "active",
+      "url": "https://www.michigan.gov/mpsc",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "monthly"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Michigan Public Service Commission",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-mo",
+      "name": "Missouri Department of Natural Resources",
+      "jurisdiction": "MO",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dnr.mo.gov/",
+      "siteTitle": "Home | Missouri Department of Natural Resources",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-mo",
+      "name": "Missouri Public Service Commission",
+      "jurisdiction": "MO",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.mo.gov/",
+      "siteTitle": "Home | Missouri Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ms",
+      "name": "Mississippi Department of Environmental Quality",
+      "jurisdiction": "MS",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.mdeq.ms.gov/",
+      "siteTitle": "MDEQ &#8211; Mississippi Department of Environmental Quality",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ms",
+      "name": "Mississippi Public Service Commission",
+      "jurisdiction": "MS",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.psc.ms.gov/",
+      "siteTitle": "Home | MISSISSIPPI PUBLIC SERVICE COMMISSION",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-mt",
+      "name": "Montana Department of Environmental Quality",
+      "jurisdiction": "MT",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://deq.mt.gov/",
+      "siteTitle": "Home | Montana DEQ",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "env-nc",
+      "name": "North Carolina Department of Environmental Quality",
+      "jurisdiction": "NC",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.deq.nc.gov/",
+      "siteTitle": "NC Dept. of Environmental Quality",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-nc",
+      "name": "North Carolina Utilities Commission",
+      "jurisdiction": "NC",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.ncuc.gov/",
+      "siteTitle": "North Carolina Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-nd",
+      "name": "North Dakota Department of Environmental Quality",
+      "jurisdiction": "ND",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://deq.nd.gov/",
+      "siteTitle": "North Dakota Department of Environmental Quality",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-nd",
+      "name": "North Dakota Public Service Commission",
+      "jurisdiction": "ND",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.psc.nd.gov/",
+      "siteTitle": "Home | NDPSC | North Dakota Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-ne",
+      "name": "Nebraska Department of Environment and Energy",
+      "jurisdiction": "NE",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dwee.nebraska.gov/",
+      "siteTitle": "Home Page | DWEE NE",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ne",
+      "name": "Nebraska Public Service Commission",
+      "jurisdiction": "NE",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.nebraska.gov/",
+      "siteTitle": "Home | Nebraska Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-nh",
+      "name": "New Hampshire Department of Environmental Services",
+      "jurisdiction": "NH",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.des.nh.gov/",
+      "siteTitle": "Welcome | NH Department of Environmental Services",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-nh",
+      "name": "New Hampshire Public Utilities Commission",
+      "jurisdiction": "NH",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.puc.nh.gov/",
+      "siteTitle": "Welcome | NH Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "siting-nh",
+      "name": "New Hampshire Site Evaluation Committee",
+      "jurisdiction": "NH",
+      "type": "committee",
+      "authority": "RSA 162-H",
+      "status": "active",
+      "url": "https://www.nhsec.nh.gov/",
+      "siteTitle": "NH Site Evaluation Committee | New Hampshire Site Evaluation Committee",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "bpu-nj",
+      "name": "New Jersey Board of Public Utilities",
+      "jurisdiction": "NJ",
+      "type": "board",
+      "authority": "N.J.S.A. 48:2-1",
+      "status": "active",
+      "url": "https://www.nj.gov/bpu/",
+      "access": "html",
+      "adapter": "html-diff",
+      "cadence": {
+        "pattern": "monthly"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Board of Public Utilities",
+      "platform": null,
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-nm",
+      "name": "New Mexico Environment Department",
+      "jurisdiction": "NM",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.env.nm.gov/",
+      "siteTitle": "New Mexico Environment Department",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-nm",
+      "name": "New Mexico Public Regulation Commission",
+      "jurisdiction": "NM",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.prc.nm.gov/",
+      "siteTitle": "Home - NM PRC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-nv",
+      "name": "Nevada Division of Environmental Protection",
+      "jurisdiction": "NV",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://ndep.nv.gov/",
+      "siteTitle": "Nevada Division of Environmental Protection | NDEP",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-nv",
+      "name": "Public Utilities Commission of Nevada",
+      "jurisdiction": "NV",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.puc.nv.gov/",
+      "siteTitle": "puc.nv.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "nyiso",
+      "name": "New York ISO",
+      "jurisdiction": "NY",
+      "type": "iso",
+      "authority": "FERC-jurisdictional ISO",
+      "status": "active",
+      "url": "https://www.nyiso.com/",
+      "siteTitle": "NYISO Home - NYISO",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-oh",
+      "name": "Ohio Environmental Protection Agency",
+      "jurisdiction": "OH",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://epa.ohio.gov/",
+      "siteTitle": "Ohio Environmental Protection Agency",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puco-oh",
+      "name": "Public Utilities Commission of Ohio",
+      "jurisdiction": "OH",
+      "type": "commission",
+      "authority": "ORC Title 49",
+      "status": "active",
+      "url": "https://puco.ohio.gov/",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "note": "Docketing Information System renders client-side. Find the XHR endpoint behind it before writing a scraper.",
+      "cadence": {
+        "pattern": "biweekly"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Public Utilities Commission of Ohio",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "siting-oh",
+      "name": "Ohio Power Siting Board",
+      "jurisdiction": "OH",
+      "type": "board",
+      "authority": "ORC 4906",
+      "status": "active",
+      "url": "https://opsb.ohio.gov/",
+      "siteTitle": "Ohio Power Siting Board",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "env-ok",
+      "name": "Oklahoma Department of Environmental Quality",
+      "jurisdiction": "OK",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://oklahoma.gov/deq.html",
+      "siteTitle": "Environmental Quality Department (292)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ok",
+      "name": "Oklahoma Corporation Commission",
+      "jurisdiction": "OK",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://oklahoma.gov/occ.html",
+      "siteTitle": "Oklahoma Corporation Commission (185)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-or",
+      "name": "Oregon Department of Environmental Quality",
+      "jurisdiction": "OR",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.oregon.gov/deq/Pages/index.aspx",
+      "siteTitle": "Department of Environmental Quality : Welcome Page : State of Oregon",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Granicus/Legistar",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-or",
+      "name": "Oregon Public Utility Commission",
+      "jurisdiction": "OR",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.oregon.gov/puc/Pages/default.aspx",
+      "siteTitle": "Public Utility Commission : Home : State of Oregon",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-pa",
+      "name": "Pennsylvania Department of Environmental Protection",
+      "jurisdiction": "PA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.pa.gov/agencies/dep",
+      "siteTitle": "Department of Environmental Protection | Department of Environmental Protection | Commonwealth of Pennsylvania",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "papuc",
+      "name": "Pennsylvania Public Utility Commission",
+      "jurisdiction": "PA",
+      "type": "commission",
+      "authority": "66 Pa.C.S.",
+      "status": "active",
+      "url": "https://www.puc.pa.gov/",
+      "access": "html",
+      "adapter": "html-diff",
+      "cadence": {
+        "pattern": "biweekly",
+        "note": "public meetings roughly every two weeks"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Pennsylvania Public Utility Commission | Regulating Utility Services | PA PUC",
+      "platform": null,
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-sc",
+      "name": "South Carolina Department of Environmental Services",
+      "jurisdiction": "SC",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://des.sc.gov/",
+      "siteTitle": "Home | South Carolina Department of Environmental Services",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-sc",
+      "name": "South Carolina Public Service Commission",
+      "jurisdiction": "SC",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.sc.gov/",
+      "siteTitle": "Home | Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-sd",
+      "name": "South Dakota DANR",
+      "jurisdiction": "SD",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://danr.sd.gov/",
+      "siteTitle": "Department of Agriculture & Natural Resources",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-sd",
+      "name": "South Dakota Public Utilities Commission",
+      "jurisdiction": "SD",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.sd.gov/",
+      "siteTitle": "South Dakota Public Utilities Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-tn",
+      "name": "Tennessee Department of Environment and Conservation",
+      "jurisdiction": "TN",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.tn.gov/environment.html",
+      "siteTitle": "Environment and Conservation",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-tn",
+      "name": "Tennessee Public Utility Commission",
+      "jurisdiction": "TN",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.tn.gov/tpuc.html",
+      "siteTitle": "Tennessee Public Utility Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-tx",
+      "name": "Texas Commission on Environmental Quality",
+      "jurisdiction": "TX",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.tceq.texas.gov/",
+      "siteTitle": "Homepage - Texas Commission on Environmental Quality - www.tceq.texas.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "ercot",
+      "name": "Electric Reliability Council of Texas",
+      "jurisdiction": "TX",
+      "type": "iso",
+      "authority": "Not FERC-jurisdictional; overseen by PUCT",
+      "status": "active",
+      "url": "https://www.ercot.com/",
+      "access": "html",
+      "adapter": "html-diff",
+      "cadence": {
+        "pattern": "monthly",
+        "note": "board and stakeholder committees on a published calendar"
+      },
+      "pollEvery": "6h",
+      "topics": [
+        "energy",
+        "reliability",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Electric Reliability Council of Texas",
+      "platform": null,
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "puct",
+      "name": "Public Utility Commission of Texas",
+      "jurisdiction": "TX",
+      "type": "commission",
+      "authority": "Texas Utilities Code Title 2",
+      "status": "active",
+      "url": "https://www.puc.texas.gov/",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "biweekly",
+        "note": "open meetings roughly every two weeks"
+      },
+      "pollEvery": "6h",
+      "topics": [
+        "energy",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Public Utility Commission of Texas",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "re-texasre",
+      "name": "Texas Reliability Entity",
+      "jurisdiction": "TX",
+      "type": "ero",
+      "authority": "Delegated authority under FPA section 215",
+      "status": "active",
+      "url": "https://www.texasre.org/",
+      "siteTitle": "Homepage | TexasRE",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "nerc-re"
+    },
+    {
+      "id": "twdb-tx",
+      "name": "Texas Water Development Board",
+      "jurisdiction": "TX",
+      "type": "board",
+      "authority": "Texas Water Code",
+      "status": "active",
+      "url": "https://www.twdb.texas.gov/",
+      "siteTitle": "Home | Texas Water Development Board",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "bis",
+      "name": "Bureau of Industry and Security",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Export Control Reform Act of 2018",
+      "status": "active",
+      "url": "https://www.bis.gov/",
+      "siteTitle": "Homepage | Bureau of Industry and Security",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "export-controls",
+        "semiconductors",
+        "ai"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "blm",
+      "name": "Bureau of Land Management",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Federal Land Policy and Management Act of 1976",
+      "status": "active",
+      "url": "https://www.blm.gov/",
+      "siteTitle": "Home | Bureau of Land Management",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting",
+        "public-lands"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "cftc",
+      "name": "Commodity Futures Trading Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Commodity Exchange Act",
+      "status": "active",
+      "url": "https://www.cftc.gov/",
+      "siteTitle": "Commodity Futures Trading Commission | CFTC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "markets",
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "cisa",
+      "name": "Cybersecurity and Infrastructure Security Agency",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "CISA Act of 2018",
+      "status": "active",
+      "url": "https://www.cisa.gov/",
+      "siteTitle": "Home Page | CISA",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "cyber",
+        "critical-infrastructure"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "diu",
+      "name": "Defense Innovation Unit",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "DoD directive",
+      "status": "active",
+      "url": "https://www.diu.mil/",
+      "siteTitle": "Defense Innovation Unit",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "defense",
+        "procurement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "doe",
+      "name": "U.S. Department of Energy",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "DOE Organization Act of 1977",
+      "status": "active",
+      "url": "https://www.energy.gov/",
+      "siteTitle": "Department of Energy",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "drbc",
+      "name": "Delaware River Basin Commission",
+      "jurisdiction": "US",
+      "type": "compact",
+      "authority": "Delaware River Basin Compact",
+      "status": "active",
+      "url": "https://www.nj.gov/drbc/",
+      "siteTitle": "Delaware River Basin Commission|DRBC Home Page",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "epa",
+      "name": "U.S. Environmental Protection Agency",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Reorganization Plan No. 3 of 1970",
+      "status": "active",
+      "url": "https://www.epa.gov/",
+      "siteTitle": "U.S. Environmental Protection Agency | US EPA",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "faa",
+      "name": "Federal Aviation Administration",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Federal Aviation Act of 1958",
+      "status": "active",
+      "url": "https://www.faa.gov/",
+      "siteTitle": "Federal Aviation Administration",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "aviation",
+        "uas",
+        "drones"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "farcouncil",
+      "name": "FAR Council",
+      "jurisdiction": "US",
+      "type": "council",
+      "authority": "Office of Federal Procurement Policy Act",
+      "status": "active",
+      "url": "https://www.acquisition.gov/",
+      "siteTitle": "Home | Acquisition.GOV",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "procurement",
+        "cui"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "fcc",
+      "name": "Federal Communications Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Communications Act of 1934",
+      "status": "active",
+      "url": "https://www.fcc.gov/",
+      "siteTitle": "Federal Communications Commission | The United States of America",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "telecom",
+        "spectrum"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "ftc",
+      "name": "Federal Trade Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "FTC Act of 1914",
+      "status": "active",
+      "url": "https://www.ftc.gov/",
+      "siteTitle": "Federal Trade Commission | Protecting America&#039;s Consumers",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "competition",
+        "privacy",
+        "ai"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "fws",
+      "name": "U.S. Fish and Wildlife Service",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Endangered Species Act",
+      "status": "active",
+      "url": "https://www.fws.gov/",
+      "siteTitle": "U.S. Fish and Wildlife Service | U.S. Fish &amp; Wildlife Service",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "permitting",
+        "environment"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "glc",
+      "name": "Great Lakes Commission",
+      "jurisdiction": "US",
+      "type": "compact",
+      "authority": "Great Lakes Basin Compact",
+      "status": "active",
+      "url": "https://www.glc.org/",
+      "siteTitle": "Home Page - Great Lakes Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "gsa",
+      "name": "General Services Administration",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Federal Property and Administrative Services Act of 1949",
+      "status": "active",
+      "url": "https://www.gsa.gov/",
+      "siteTitle": "Home | GSA",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "procurement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "isone",
+      "name": "ISO New England",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional ISO",
+      "status": "active",
+      "url": "https://www.iso-ne.com/",
+      "siteTitle": "ISO New England",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "miso",
+      "name": "Midcontinent ISO",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional RTO",
+      "status": "active",
+      "url": "https://www.misoenergy.org/",
+      "siteTitle": "Midcontinent Independent System Operator (MISO)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "nist",
+      "name": "National Institute of Standards and Technology",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "NIST Act",
+      "status": "active",
+      "url": "https://www.nist.gov/",
+      "siteTitle": "National Institute of Standards and Technology",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "standards",
+        "ai",
+        "cyber"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "nmfs",
+      "name": "NOAA Fisheries",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Magnuson-Stevens Act; ESA",
+      "status": "active",
+      "url": "https://www.fisheries.noaa.gov/",
+      "siteTitle": "Welcome to NOAA | NOAA Fisheries",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "permitting",
+        "offshore"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "nrc",
+      "name": "U.S. Nuclear Regulatory Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Energy Reorganization Act of 1974",
+      "status": "active",
+      "url": "https://www.nrc.gov/",
+      "siteTitle": "Homepage | Nuclear Regulatory Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "ntia",
+      "name": "National Telecommunications and Information Administration",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "NTIA Organization Act",
+      "status": "active",
+      "url": "https://www.ntia.gov/",
+      "siteTitle": "Home Page | National Telecommunications and Information Administration",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "telecom",
+        "spectrum",
+        "ai"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "oira",
+      "name": "OIRA, Office of Management and Budget",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Executive Order 12866",
+      "status": "active",
+      "url": "https://www.reginfo.gov/public/",
+      "siteTitle": "DASHBOARD - REGINFO.GOV",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "rulemaking",
+        "review"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "phmsa",
+      "name": "Pipeline and Hazardous Materials Safety Administration",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Pipeline Safety Act",
+      "status": "active",
+      "url": "https://www.phmsa.dot.gov/",
+      "siteTitle": "Pipeline and Hazardous Materials Safety Administration",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "pipelines",
+        "safety"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "pjm",
+      "name": "PJM Interconnection",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional RTO",
+      "status": "active",
+      "url": "https://www.pjm.com/",
+      "siteTitle": "PJM Website",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "re-npcc",
+      "name": "Northeast Power Coordinating Council",
+      "jurisdiction": "US",
+      "type": "ero",
+      "authority": "Delegated authority under FPA section 215",
+      "status": "active",
+      "url": "https://www.npcc.org/",
+      "siteTitle": "Northeast Power Coordinating Council, Inc. (NPCC)",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "nerc-re"
+    },
+    {
+      "id": "re-rf",
+      "name": "ReliabilityFirst",
+      "jurisdiction": "US",
+      "type": "ero",
+      "authority": "Delegated authority under FPA section 215",
+      "status": "active",
+      "url": "https://www.rfirst.org/",
+      "siteTitle": "Reliability | Bulk Electric System Reliability | ReliabilityFirst",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "nerc-re"
+    },
+    {
+      "id": "re-serc",
+      "name": "SERC Reliability Corporation",
+      "jurisdiction": "US",
+      "type": "ero",
+      "authority": "Delegated authority under FPA section 215",
+      "status": "active",
+      "url": "https://www.serc.org/",
+      "siteTitle": "SERC Reliability Corporation – Grid Security &amp; Reliability",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "nerc-re"
+    },
+    {
+      "id": "re-wecc",
+      "name": "Western Electricity Coordinating Council",
+      "jurisdiction": "US",
+      "type": "ero",
+      "authority": "Delegated authority under FPA section 215",
+      "status": "active",
+      "url": "https://www.wecc.org/",
+      "siteTitle": "Front Page | Western Electricity Coordinating Council",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "nerc-re"
+    },
+    {
+      "id": "regulations",
+      "name": "Regulations.gov, the federal docket system",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "E-Government Act of 2002",
+      "status": "active",
+      "url": "https://www.regulations.gov/",
+      "siteTitle": "Regulations.gov",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "rulemaking"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "sec",
+      "name": "Securities and Exchange Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Securities Exchange Act of 1934",
+      "status": "active",
+      "url": "https://www.sec.gov/",
+      "siteTitle": "SEC.gov | Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "markets",
+        "disclosure"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "spp",
+      "name": "Southwest Power Pool",
+      "jurisdiction": "US",
+      "type": "iso",
+      "authority": "FERC-jurisdictional RTO",
+      "status": "active",
+      "url": "https://www.spp.org/",
+      "siteTitle": "Home - Southwest Power Pool",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "reliability",
+        "interconnection"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "srbc",
+      "name": "Susquehanna River Basin Commission",
+      "jurisdiction": "US",
+      "type": "compact",
+      "authority": "Susquehanna River Basin Compact",
+      "status": "active",
+      "url": "https://www.srbc.gov/",
+      "siteTitle": "Susquehanna River Basin Commission: Coordinating Water Resource Efforts",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water",
+        "permitting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "stb",
+      "name": "Surface Transportation Board",
+      "jurisdiction": "US",
+      "type": "board",
+      "authority": "ICC Termination Act of 1995",
+      "status": "active",
+      "url": "https://www.stb.gov/",
+      "siteTitle": "Surface Transportation Board",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Granicus/Legistar",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "rail",
+        "coal"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "treasury",
+      "name": "U.S. Department of the Treasury, CFIUS",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Defense Production Act section 721",
+      "status": "active",
+      "url": "https://www.cfius.gov/",
+      "siteTitle": "CFIUS | U.S. Department of the Treasury",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "foreign-investment",
+        "national-security"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "usace",
+      "name": "U.S. Army Corps of Engineers",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Clean Water Act section 404; Rivers and Harbors Act",
+      "status": "active",
+      "url": "https://www.usace.army.mil/",
+      "siteTitle": "Headquarters U.S. Army Corps of Engineers",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "permitting",
+        "water",
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "usbr",
+      "name": "Bureau of Reclamation",
+      "jurisdiction": "US",
+      "type": "agency",
+      "authority": "Reclamation Act of 1902",
+      "status": "active",
+      "url": "https://www.usbr.gov/",
+      "siteTitle": "Bureau of Reclamation",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water",
+        "hydropower"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "usitc",
+      "name": "U.S. International Trade Commission",
+      "jurisdiction": "US",
+      "type": "commission",
+      "authority": "Tariff Act of 1930",
+      "status": "active",
+      "url": "https://www.usitc.gov/",
+      "siteTitle": "Home | United States International Trade Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "trade",
+        "tariffs"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "federal"
+    },
+    {
+      "id": "env-ut",
+      "name": "Utah Department of Environmental Quality",
+      "jurisdiction": "UT",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://deq.utah.gov/",
+      "siteTitle": "Home - Utah Department of Environmental Quality",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ut",
+      "name": "Utah Public Service Commission",
+      "jurisdiction": "UT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.utah.gov/",
+      "siteTitle": "Public Service Comission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-va",
+      "name": "Virginia Department of Environmental Quality",
+      "jurisdiction": "VA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.deq.virginia.gov/",
+      "siteTitle": "Virginia DEQ | Home",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "scc-va",
+      "name": "Virginia State Corporation Commission",
+      "jurisdiction": "VA",
+      "type": "commission",
+      "authority": "Va. Code Title 12.1",
+      "status": "active",
+      "url": "https://www.scc.virginia.gov/",
+      "access": "html",
+      "adapter": "html-diff",
+      "cadence": {
+        "pattern": "asNeeded"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Virginia SCC - Home",
+      "platform": null,
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-vt",
+      "name": "Vermont Department of Environmental Conservation",
+      "jurisdiction": "VT",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dec.vermont.gov/",
+      "siteTitle": "Welcome to DEC | Department of Environmental Conservation",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-vt",
+      "name": "Vermont Public Utility Commission",
+      "jurisdiction": "VT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://puc.vermont.gov/",
+      "siteTitle": "Home | Public Utility Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-wa",
+      "name": "Washington Department of Ecology",
+      "jurisdiction": "WA",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://ecology.wa.gov/",
+      "siteTitle": "Home - Washington State Department of Ecology",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-wa",
+      "name": "Washington Utilities and Transportation Commission",
+      "jurisdiction": "WA",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.utc.wa.gov/",
+      "siteTitle": "Washington Utilities and Transportation Commission | UTC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "siting-wa",
+      "name": "Washington EFSEC",
+      "jurisdiction": "WA",
+      "type": "council",
+      "authority": "RCW 80.50",
+      "status": "active",
+      "url": "https://efsec.wa.gov/",
+      "siteTitle": "Home | EFSEC",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "env-wi",
+      "name": "Wisconsin Department of Natural Resources",
+      "jurisdiction": "WI",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dnr.wisconsin.gov/",
+      "siteTitle": "Wisconsin Department of Natural Resources",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "Drupal",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-wi",
+      "name": "Public Service Commission of Wisconsin",
+      "jurisdiction": "WI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.wi.gov/Pages/Home.aspx",
+      "siteTitle": "Public Service Commission of Wisconsin",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-wv",
+      "name": "West Virginia Department of Environmental Protection",
+      "jurisdiction": "WV",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dep.wv.gov/Pages/default.aspx",
+      "siteTitle": "WV Department of Environmental Protection",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "ASP.NET WebForms",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-wv",
+      "name": "West Virginia Public Service Commission",
+      "jurisdiction": "WV",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.psc.state.wv.us/",
+      "siteTitle": "Public Service Commission of West Virginia",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-wy",
+      "name": "Wyoming Department of Environmental Quality",
+      "jurisdiction": "WY",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://deq.wyoming.gov/",
+      "siteTitle": "Home - Wyoming Department of Environmental Quality %",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": "WordPress",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-wy",
+      "name": "Wyoming Public Service Commission",
+      "jurisdiction": "WY",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.wyo.gov/",
+      "siteTitle": "WY Public Service Commission",
+      "access": "html",
+      "adapter": "html-diff",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "puc-fl",
+      "name": "Florida Public Service Commission",
+      "jurisdiction": "FL",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.floridapsc.com/",
+      "siteTitle": "Florida PSC",
+      "access": "js",
+      "adapter": null,
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown",
+        "note": "meeting schedule not yet captured"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    },
+    {
+      "id": "env-nj",
+      "name": "New Jersey Department of Environmental Protection",
+      "jurisdiction": "NJ",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.nj.gov/dep/",
+      "siteTitle": "NJDEP",
+      "access": "js",
+      "adapter": null,
+      "note": "dep.nj.gov sits behind a bot wall. The nj.gov path answers and identifies itself as NJDEP, but renders client-side, so it needs an endpoint found.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "nerc",
+      "name": "North American Electric Reliability Corporation",
+      "jurisdiction": "US",
+      "type": "ero",
+      "authority": "Designated ERO under FPA section 215",
+      "status": "active",
+      "url": "https://www.nerc.com/",
+      "access": "js",
+      "adapter": null,
+      "note": "Standards and ballot pages render client-side. Ballot deadlines matter, so this one is worth the effort.",
+      "cadence": {
+        "pattern": "continuous",
+        "note": "standards ballots run on their own posted schedule"
+      },
+      "pollEvery": "6h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "id": "env-ak",
+      "name": "Alaska Department of Environmental Conservation",
+      "jurisdiction": "AK",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dec.alaska.gov/",
+      "siteTitle": "alaska.gov",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ak",
+      "name": "Regulatory Commission of Alaska",
+      "jurisdiction": "AK",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://rca.alaska.gov/",
+      "siteTitle": "alaska.gov",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "HTTP 403",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "adwr-az",
+      "name": "Arizona Department of Water Resources",
+      "jurisdiction": "AZ",
+      "type": "agency",
+      "authority": "Arizona Groundwater Management Act of 1980",
+      "status": "active",
+      "url": "https://www.azwater.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "air-water"
+    },
+    {
+      "id": "env-az",
+      "name": "Arizona Department of Environmental Quality",
+      "jurisdiction": "AZ",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.azdeq.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "env-ks",
+      "name": "Kansas Department of Health and Environment",
+      "jurisdiction": "KS",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.kdhe.ks.gov/",
+      "siteTitle": "Attention Required! | Cloudflare",
+      "access": "blocked",
+      "adapter": null,
+      "platform": "CivicPlus",
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "env-mn",
+      "name": "Minnesota Pollution Control Agency",
+      "jurisdiction": "MN",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://www.pca.state.mn.us/",
+      "siteTitle": "Radware Page",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "bot wall",
+      "note": "Reachable by a person; a plain fetch hits a Radware wall.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-mn",
+      "name": "Minnesota Public Utilities Commission",
+      "jurisdiction": "MN",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "http://validate.perfdrive.com/d5bd5333eafe8b0ccd6023ba818d1aa6/?ssa=ac1bb1e7-c453-46a6-8899-c6eba0e06e1d&ssb=32543263820&ssc=https%3A%2F%2Fmn.gov%2Fpuc%2F&ssi=a9b00260-bf56-464d-922c-39a5836e78d8&ssk=[email removed]&ssm=60987759140494055101898691580838&ssn=e91990aff5de9c561566c5b85a0337f70f35816e8ed8-e798-4bd8-a94de8&sso=64f69658-64d8b0ccb6b3b4e3dfb6eb6ddf4f467b3b6a3438725076bd&ssp=34667638621790172441179014467719900&ssq=20381831577020690704215770501707140615553&ssr=MTM2LjI2LjUuMjA1&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/124.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=W10=",
+      "siteTitle": "Radware Bot Manager Captcha",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "bot wall",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "puc-mt",
+      "name": "Montana Public Service Commission",
+      "jurisdiction": "MT",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://psc.mt.gov/",
+      "siteTitle": "",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "fetch failed",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "dps-ny",
+      "name": "New York Department of Public Service",
+      "jurisdiction": "NY",
+      "type": "commission",
+      "authority": "N.Y. Public Service Law",
+      "status": "active",
+      "url": "https://dps.ny.gov/",
+      "access": "blocked",
+      "adapter": null,
+      "platform": "ASP.NET WebForms",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "cadence": {
+        "pattern": "monthly"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "largeload"
+      ],
+      "verifiedAt": "2026-09-22",
+      "siteTitle": "Just a moment...",
+      "blockedBy": "HTTP 403",
+      "verifiedBy": "hand-researched, access re-probed"
+    },
+    {
+      "id": "env-ny",
+      "name": "New York Department of Environmental Conservation",
+      "jurisdiction": "NY",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dec.ny.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "siting-ny",
+      "name": "New York ORES",
+      "jurisdiction": "NY",
+      "type": "office",
+      "authority": "Accelerated Renewable Energy Growth Act",
+      "status": "active",
+      "url": "https://ores.ny.gov/",
+      "siteTitle": "",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "fetch failed",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "siting"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "siting"
+    },
+    {
+      "id": "env-ri",
+      "name": "Rhode Island Department of Environmental Management",
+      "jurisdiction": "RI",
+      "type": "agency",
+      "authority": null,
+      "status": "active",
+      "url": "https://dem.ri.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "environment",
+        "permitting",
+        "air",
+        "water"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "state-env"
+    },
+    {
+      "id": "puc-ri",
+      "name": "Rhode Island Public Utilities Commission",
+      "jurisdiction": "RI",
+      "type": "commission",
+      "authority": null,
+      "status": "active",
+      "url": "https://ripuc.ri.gov/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "blockedBy": "HTTP 403",
+      "note": "Exists and is reachable by a person. A plain fetch is refused, so this needs a browser session or a found endpoint.",
+      "platform": null,
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy",
+        "utilities"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe, blocked"
+    },
+    {
+      "id": "re-mro",
+      "name": "Midwest Reliability Organization",
+      "jurisdiction": "US",
+      "type": "ero",
+      "authority": "Delegated authority under FPA section 215",
+      "status": "active",
+      "url": "https://www.mro.net/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "reliability"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe",
+      "category": "nerc-re"
+    },
+    {
+      "id": "tva",
+      "name": "Tennessee Valley Authority",
+      "jurisdiction": "US",
+      "type": "authority",
+      "authority": "Tennessee Valley Authority Act of 1933",
+      "status": "active",
+      "url": "https://www.tva.com/",
+      "siteTitle": "Just a moment...",
+      "access": "blocked",
+      "adapter": null,
+      "platform": null,
+      "blockedBy": "HTTP 403",
+      "note": "Reachable by a person; a plain fetch is refused.",
+      "cadence": {
+        "pattern": "unknown"
+      },
+      "pollEvery": "12h",
+      "topics": [
+        "energy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "verifiedBy": "live probe"
+    }
+  ],
+  "_notFoundYet": "State environmental, siting and facility boards, and the AI councils now being created by statute. new-bodies.js is how that last group gets found before anyone announces them.",
+  "_counts": {
+    "total": 162,
+    "byAccess": {
+      "api": 1,
+      "html": 143,
+      "js": 3,
+      "blocked": 15
+    },
+    "byType": {
+      "commission": 58,
+      "agency": 70,
+      "district": 4,
+      "iso": 7,
+      "board": 7,
+      "council": 3,
+      "committee": 1,
+      "ero": 7,
+      "compact": 3,
+      "office": 1,
+      "authority": 1
+    },
+    "pollableNow": 144,
+    "asOf": "2026-09-22"
+  },
+  "_unreadable": [
+    {
+      "id": "puc-fl",
+      "name": "Florida Public Service Commission",
+      "access": "js",
+      "reason": "renders client-side"
+    },
+    {
+      "id": "env-nj",
+      "name": "New Jersey Department of Environmental Protection",
+      "access": "js",
+      "reason": "renders client-side"
+    },
+    {
+      "id": "nerc",
+      "name": "North American Electric Reliability Corporation",
+      "access": "js",
+      "reason": "renders client-side"
+    },
+    {
+      "id": "env-ak",
+      "name": "Alaska Department of Environmental Conservation",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "puc-ak",
+      "name": "Regulatory Commission of Alaska",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "adwr-az",
+      "name": "Arizona Department of Water Resources",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "env-az",
+      "name": "Arizona Department of Environmental Quality",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "env-ks",
+      "name": "Kansas Department of Health and Environment",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "env-mn",
+      "name": "Minnesota Pollution Control Agency",
+      "access": "blocked",
+      "reason": "bot wall"
+    },
+    {
+      "id": "puc-mn",
+      "name": "Minnesota Public Utilities Commission",
+      "access": "blocked",
+      "reason": "bot wall"
+    },
+    {
+      "id": "puc-mt",
+      "name": "Montana Public Service Commission",
+      "access": "blocked",
+      "reason": "fetch failed"
+    },
+    {
+      "id": "dps-ny",
+      "name": "New York Department of Public Service",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "env-ny",
+      "name": "New York Department of Environmental Conservation",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "siting-ny",
+      "name": "New York ORES",
+      "access": "blocked",
+      "reason": "fetch failed"
+    },
+    {
+      "id": "env-ri",
+      "name": "Rhode Island Department of Environmental Management",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "puc-ri",
+      "name": "Rhode Island Public Utilities Commission",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "re-mro",
+      "name": "Midwest Reliability Organization",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "tva",
+      "name": "Tennessee Valley Authority",
+      "access": "blocked",
+      "reason": "HTTP 403"
+    }
+  ]
+}

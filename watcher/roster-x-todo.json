@@ -1,0 +1,19 @@
+{
+  "_why": "Corrected 2026-09-22. An earlier pass concluded these outlets had no Bluesky presence. That was wrong, and the cause was the search method: queries appended words like 'reporter' and 'congress' to the outlet name, which degraded matching instead of narrowing it. A bare outlet-name query, plus reading who the outlet's own account follows, found them immediately.",
+  "_method": "Two probes, both cheap. 1) app.bsky.graph.getFollows on the outlet account, because outlets follow their own staff. 2) app.bsky.actor.searchActors with the bare outlet name, no qualifiers. Use both: The Hill's staff showed up only in follows, CQ Roll Call's only in search.",
+  "_findings": {
+    "Punchbowl News": "5 current staff on Bluesky. No X needed.",
+    "The Hill": "7 current staff on Bluesky, including energy and environment. No X needed.",
+    "CQ Roll Call": "8 current staff on Bluesky, including energy, defense and the morning-brief writer. No X needed.",
+    "POLITICO": "11 current staff on Bluesky. No X needed.",
+    "The Daily Wire": "Thin. Only a culture reporter and a co-founder host. Policy staff are on X.",
+    "NOTUS": "None found by either probe."
+  },
+  "_howToFill": "Set the handle for each person, no @, then move the entry into roster.json with a weight. Never invent a handle: a wrong one silently polls the wrong account and bills you for it.",
+  "_costNote": "About $0.005 per post read. One reporter posting 20 times a day is roughly $3/month. The list below is now short enough that X is a small line item rather than the main ingestion route.",
+  "outlets": [
+    { "outlet": "The Daily Wire", "why": "Reads the politics of an energy or AI bill from the right. A tracker built only on mainstream coverage misses how a bill is being framed to a conservative audience.", "blueskyPresence": "culture reporter only", "suggestedWeight": 0.65, "handles": [] },
+    { "outlet": "NOTUS", "why": "Congressional enterprise reporting. Nothing found on Bluesky by either probe.", "blueskyPresence": "none found", "suggestedWeight": 0.75, "handles": [] },
+    { "outlet": "Politico Pro", "why": "Some Pro-tier reporters post to X only. The free-tier ones are already covered on Bluesky.", "blueskyPresence": "partial", "suggestedWeight": 0.9, "handles": [] }
+  ]
+}
