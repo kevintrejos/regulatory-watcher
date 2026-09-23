@@ -36,7 +36,7 @@ A full sweep reaches 143 of them in 187 seconds and fingerprints 11,928 records 
 
 **`watcher/commissions/`** holds the body registry and the adapters that read it. Every row was verified by a live probe rather than asserted, and records the URL after redirects plus the site's own title. `new-bodies.js` reads enacted statutory text for the language that creates a council or board, so a new body enters the registry before its first meeting. See [watcher/commissions/README.md](watcher/commissions/README.md).
 
-**`prototype/`** is a clickable concept of what an agent-native government affairs platform could look like from both sides: the firm covering a book of clients, and a client seeing only what they need. Open `prototype/index.html`. Design decisions are in [prototype/SPEC.md](prototype/SPEC.md).
+**`prototype/`** is a clickable concept of what an agent-native government affairs platform could look like from both sides: the firm covering a book of clients, and a client seeing only what they need. Open `prototype/index.html`. [prototype/GUIDE.md](prototype/GUIDE.md) walks every screen and the reason it exists; [prototype/SPEC.md](prototype/SPEC.md) holds the original decisions.
 
 **`.claude/skills/`** is the skill library the work was built through. Twenty-one files, one per content section or tool, each carrying the rules and the mistakes worth not repeating. It is here because the repeatability is the point: the same process runs again without re-deciding anything.
 
