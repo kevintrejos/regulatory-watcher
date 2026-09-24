@@ -40,21 +40,6 @@ A full sweep reaches 143 of them in 187 seconds and fingerprints 11,928 records 
 
 **`.claude/skills/`** is the skill library the work was built through. Twenty-one files, one per content section or tool, each carrying the rules and the mistakes worth not repeating. It is here because the repeatability is the point: the same process runs again without re-deciding anything.
 
-## Three things that only showed up by running it
-
-**A JavaScript shell usually hides an interface worth having.** FERC's eLibrary looks unscrapeable. Behind it is a service that answers without credentials and returns accession numbers, docket numbers, filing dates and author affiliations already structured. One look at the network panel found it.
-
-**Acronyms have to match case-sensitively.** A case-insensitive match on `GRID` linked "it's very hot in Texas but the grid is fine" to the GRID Power Act. The first run produced 34 bill links and all 34 were wrong.
-
-**Match the watermark to the source.** Set membership works for page diffs. It was wrong for FERC, whose search is relevance-ordered and returns a different subset on every call, so "not in the set we have seen" invented seven filings on a docket that had not changed. Where the source gives a real date, use the date.
-
-## What is not done
-
-- 18 bodies are unreadable without a browser session or a found endpoint. NERC is worth solving first, since ballot deadlines are real deadlines.
-- `new-bodies.js` is tested against representative statutory language, not yet wired to a live bill-text feed. That wiring is what turns a detector into a product.
-- Local permitting is absent entirely, and for siting fights that is often where the decision gets made.
-- The page differ reports that something appeared, not what it means. A human still reads it, which is the right place for a person to sit.
-
 ## On the contents
 
 Built by Kevin Trejos as a portfolio piece. Not affiliated with, endorsed by, or built for any firm named in the prototype. The client companies in `prototype/` are fictional. The bills, dockets, agencies and officials are real and cited, accurate as of September 2026, and nothing in here should be relied on as current policy advice.
